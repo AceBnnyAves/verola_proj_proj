@@ -1,0 +1,154 @@
+@font-face {
+	font-family: TextFont;
+	src: url('../resources/DFont.otf');
+}
+body {
+	background-image: url('../resources/bg.jpg');
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+p {
+	font-family: TextFont;
+	font-size: 30px;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Body Design*/
+#bg_body {
+	display: block;
+	background-color: #8f5d46;
+	height: 560px;
+	width: 920px;
+	border: solid #693d2c 10px;
+	border-radius: 20px;
+	margin-left: 23px;
+	margin-top: 23px;
+	padding-left: 15px;
+	padding-right: 10px;
+	position: relative;
+}
+#p_title {
+	font-size: 50px;
+	background-color: #643B2B;
+	margin-top: 15px;
+	padding-left: 5px;
+	width: 500px;
+	border-radius: 10px;
+}
+#p_desc {
+	padding-left: 5px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+/*Prompt and Stat Area*/
+#a_stat {
+	background-color: #81513B;
+	border-radius: 10px;
+	display: inline-block;
+	width: 280px;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 15px;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 25px;
+}
+#a_scene {
+	background-color: #81513B;
+	border-radius: 10px;
+	display: inline-block;
+	width: 520px;
+	height: 315px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+/*Stat Text Design*/
+.str {
+	font-size: 35px;
+	margin-left: 10px;
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+}
+#str {
+	position: relative;
+	bottom: 0px;
+}
+.dex {
+	font-size: 35px;
+	margin-left: 10px;
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+}
+#dex {
+	position: relative;
+	bottom: 0px;
+}
+.int {
+	font-size: 35px;
+	margin-left: 10px;
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+}
+#int {
+	position: relative;
+	bottom: 0px;
+}
+
+/*Image Sprites*/
+#p_str {
+	background: url('../resources/sprite.png') no-repeat -79px -10.5px;
+	background-size: 229px 88.5px;
+	width: 66px;
+	height: 70.5px;
+	display: inline-block;
+}
+#p_dex {
+	background: url('../resources/sprite.png') no-repeat -153.5px -9px;
+	background-size: 229px 88.5px;
+	width: 68px;
+	height: 75.5px;
+	display: inline-block;
+}
+#p_int {
+	background: url('../resources/sprite.png') no-repeat -8.5px -14px;
+	background-size: 229px 88.5px;
+	width: 66px;
+	height: 70.5px;
+	display: inline-block;
+}
+
+/*Random Button Designs*/
+#stat_button {
+	font-size: 30px;
+	font-family: TextFont;
+	color: white;
+	background-color: #744935;
+	border: solid white 4px;
+	border-radius: 5px;
+}
+#scene_button {
+	font-size: 30px;
+	font-family: TextFont;
+	color: white;
+	background-color: #744935;
+	border: solid white 4px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 10px;
+	right: 140px;
+	display: none;
+}

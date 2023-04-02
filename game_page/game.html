@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Jacint Angelo">
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<script type="text/javascript" src="../mechanics.js"></script>
+	<title>Game</title>
+</head>
+<body>
+	<!--The Body-->
+	<div id="bg_body">
+		<p id="p_title">Adventure Generator!</p>
+		<p id="p_desc">OH! Hello adventurer, welcome to the Bitirseet tavern. Looking for an adventure? assess your skill stats first by clicking the "Randomize!" button. To go to an adventure, click "Generate Scene". Well I hope you enjoy your adventure lad!</p>
+
+		<!--Stat Generator Area-->
+		<div id="a_stat">
+			<img src="../resources/t.png" height="1px" id="p_str"> <p class="str">Str: <span class="str" id="str">_</span></p><p></p>
+			<img src="../resources/t.png" height="1px" id="p_dex"> <p class="dex">Dex: <span class="dex" id="dex">_</span></p><p></p>
+			<img src="../resources/t.png" height="1px" id="p_int"> <p class="int">Int: <span class="int" id="int">_</span></p><p></p>
+			<button id="stat_button" onclick="Stat()">Randomize!</button>
+		</div>
+
+		<!--Scene Prompt Generator Area-->
+		<div id="a_scene">
+			<p id="situation">Generate your stat first</p>
+			<p>-</p>
+			<p id="result">-</p>
+			<button id="scene_button" onclick="Scene()">Generate Scene</button>
+		</div>
+	</div>
+</body>
+</html>
